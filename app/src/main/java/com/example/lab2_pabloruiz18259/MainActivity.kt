@@ -35,7 +35,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, View.OnLongClick
 
             val results = Intent(this, Result::class.java)
             results.putExtra("result", calculationResult)
-            startActivity(results)
+
+            if(heightDouble in 0.01..2.70) {
+                startActivity(results)
+            } else {
+                Toast.makeText(this, "Ingrese un valor entre 1 y 270 en la altura", Toast.LENGTH_SHORT).show()
+            }
+
 
         } catch(e: Exception) {
             Toast.makeText(this, "Por favor no deje entradas vacias", Toast.LENGTH_SHORT).show()

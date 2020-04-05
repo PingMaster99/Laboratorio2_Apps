@@ -4,5 +4,10 @@
     <string name="weight">Ingrese su peso (lb)</string>
     <string name="process_data">Procesar</string>
     <string name="fit_image">fitness</string>
-    <string name="result">fitness</string>
+    <string name="imc_result">0.0</string>
+    <string name="low_imc">Se encuentra bajo de peso</string>
+    <string name="ideal_imc">¡Se encuentra en su peso ideal!</string>
+    <string name="imc_overweight">Tiene sobrepeso</string>
+    <string name="imc_obese">Está dentro de los valores de obesidad</string>
+    <string name="imc">IMC</string>
 </resources>
