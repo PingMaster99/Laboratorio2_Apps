@@ -4,4 +4,5 @@
     <string name="weight">Ingrese su peso (lb)</string>
     <string name="process_data">Procesar</string>
     <string name="fit_image">fitness</string>
+    <string name="result">fitness</string>
 </resources>
