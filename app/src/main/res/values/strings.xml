@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Lab2_PabloRuiz18259</string>
+    <string name="app_name">IMC App</string>
+    <string name="height">Ingrese su estatura (cm)</string>
+    <string name="weight">Ingrese su peso (lb)</string>
+    <string name="process_data">Procesar</string>
+    <string name="fit_image">fitness</string>
 </resources>
